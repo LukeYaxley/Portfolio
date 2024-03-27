@@ -4,7 +4,7 @@ description: Computer Science Portfolio
 url: "https://lukeyaxley.github.io/Portfolio" # The base hostname & protocol for your site
 
 # Build settings
-theme: midnight # You can change this to the name of the theme you're using, or remove it if you're not using a theme
+theme: Midnight # You can change this to the name of the theme you're using, or remove it if you're not using a theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
