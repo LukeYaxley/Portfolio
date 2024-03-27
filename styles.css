@@ -17,7 +17,12 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+.avatar{
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image stays within the circle */
+}
 header {
     background-color: #333;
     color: #fff;
