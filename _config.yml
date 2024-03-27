@@ -3,7 +3,7 @@ title: Luke Yaxley
 description: Computer Science Portfolio
 url: "https://lukeyaxley.github.io/Portfolio" # The base hostname & protocol for your site
 theme: jekyll-theme-midnight
-avatar: "/assets/images/Profile.png"
+avatar: "/assets/images/profile.png"
 # Build settings
 plugins:
   - jekyll-feed
