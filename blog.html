@@ -3,12 +3,50 @@ layout: default
 title: Blog
 ---
 
-<h1>Blog</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<ul>
-{% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
-    </li>
-{% endfor %}
-</ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Luke Yaxley</h1>
+            <p>Computer Science Student</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="blog-posts">
+        <div class="container">
+            <h2>Blog Posts</h2>
+            <!-- Loop through blog posts -->
+            {% for post in site.posts %}
+            <div class="blog-post">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="post-meta">Published on {{ post.date | date: "%B %-d, %Y" }}</p>
+                <p>{{ post.excerpt }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    
+</body>
+
+</html>
