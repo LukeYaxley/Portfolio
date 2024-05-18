@@ -1,7 +1,7 @@
 # Site settings
 title: Luke Yaxley
 description: Computer Science Portfolio
-url: "https://lukeyaxley.github.io/Portfolio" # The base hostname & protocol for your site
+url: "https://lukeyaxley.github.io/" # The base hostname & protocol for your site
 remote_theme: pages-themes/dinky@v0.2.0
 
 avatar: "assets/images/profile.png"
