@@ -48,7 +48,9 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
+article.post h1 {
+  color: white;
+}
 nav ul li a {
     color: #333;
     text-decoration: none;
