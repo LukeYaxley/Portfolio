@@ -3,7 +3,7 @@ title: Luke Yaxley
 description: Computer Science Portfolio
 url: "https://lukeyaxley.github.io/" # The base hostname & protocol for your site
 remote_theme: pages-themes/dinky@v0.2.0
-
+baseurl: "/" 
 avatar: "assets/images/profile.png"
 # Build settings
 plugins:
